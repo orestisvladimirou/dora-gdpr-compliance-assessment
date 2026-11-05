@@ -1,0 +1,10 @@
+action_id,prior_status,phase3_hypothetical_followup,evidence_type,verification,signoff,new_status,next_evidence_gate
+ACT-01,Open - fictional,Proposed governance and responsibility matrix outlined,Draft document only,Not independently verified,Not obtained,OPEN - SIMULATED,Approve accountable executive and incident reporting RACI
+ACT-02,Open - fictional,Outlined four service inventory samples and owners,Inventory planning only,Not independently verified,Not obtained,OPEN - SIMULATED,Signed complete inventory mapped to critical services
+ACT-03,Open - fictional,Wrote mock alert and containment procedures,Training outline only,Not independently verified,Not obtained,OPEN - SIMULATED,Actual IAM control exports and incident detection sample
+ACT-04,Open - fictional,Prepared critical payment API restore tabletop prompt,Role-play; no service restored,NOT TESTED,Not obtained,OPEN - SIMULATED,Witnessed recoverability test with recorded RTO and RPO
+ACT-05,Open - fictional,Drafted lessons-learned agenda,Draft template only,Not independently verified,Not obtained,OPEN - SIMULATED,Reviewed and approved incident postmortem with verified action closure
+ACT-06,Open - fictional,Added edge-case decision checks and clocks,Programmatic simulated tests,Not independently verified,Not obtained,OPEN - SIMULATED,Complete classification criteria reviewed and authorized by regulator reporting owner
+ACT-07,Open - fictional,Added sample contract and RoI evidence requests,No official ITS register file submitted,Not independently verified,Not obtained,OPEN - SIMULATED,ITS-complete register validated and appropriate agreements reviewed
+ACT-08,Open - fictional,Prepared RoPA and DPIA screening evidence list,Document request only,Not independently verified,Not obtained,OPEN - SIMULATED,Accurate processing records and case-by-case DPIA outcome approved
+ACT-09,Open - fictional,Created draft GDPR and DORA communication packet inventory,Draft non-submitted templates,Not independently verified,Not obtained,OPEN - SIMULATED,Real decision authority signoff and staged operational communication rehearsal
