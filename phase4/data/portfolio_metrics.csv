@@ -1,0 +1,21 @@
+metric_id,indicator,value,source_path,interpretation
+M01,Baseline fictional incidents,3,data/incident_register.csv,One assumed DORA major; two GDPR authority-notification cases
+M02,Assumed DORA major incidents,1,data/incident_register.csv,Scenario classification only; no actual notice sent
+M03,Assumed GDPR authority notification cases,2,data/incident_register.csv,Two independent personal-data risk decisions
+M04,Assumed GDPR subject communications,1,data/incident_register.csv,Potential high risk; Article 34 exceptions require checking
+M05,Selected DORA checkpoints,11,data/regulatory_obligations.csv,Illustrative regulatory mapping; not full DORA assurance
+M06,Selected GDPR checkpoints,8,data/regulatory_obligations.csv,Illustrative regulatory mapping; not full GDPR assurance
+M07,Gap observations,9,data/regulatory_obligations.csv,Training assessments; not legal violation determinations
+M08,Partial observations,8,data/regulatory_obligations.csv,Some modeled practice; full operating evidence absent
+M09,Not verified observations,2,data/regulatory_obligations.csv,Not a positive or negative compliance conclusion
+M10,Fictional ICT arrangements,3,data/ict_arrangements.csv,Not the official DORA register of information
+M11,Evidence register entries,9,data/evidence_register.csv,Synthetic or missing; no real client information
+M12,Open baseline remediation actions,9,data/remediation_tracker.csv,No authority approval or formal closure
+M13,Supplemental decision edge cases,9,phase2/data/edge_case_decisions.csv,"Includes recurrence requiring review, not auto classification"
+M14,Illustrative reporting-clock exercises,5,phase2/data/timeline_exercises.csv,Not actual regulator submission timestamps
+M15,Open Phase 2 evidence requests,9,phase2/data/evidence_requests.csv,All records not provided in the simulation
+M16,Draft regulatory communication records,6,phase3/data/mock_communication_packets.csv,Not submitted
+M17,Simulated resilience tabletop steps,6,phase3/data/resilience_tabletop.csv,Zero actual recovery tests
+M18,Phase 3 remediation follow-ups open,9,phase3/data/remediation_followup.csv,No signoff or independent evidence of effectiveness
+M19,Actual regulatory reports submitted,0,phase3/data/mock_communication_packets.csv,No actual notices or acknowledgements
+M20,Successfully tested payment-service restores,0,phase3/data/resilience_tabletop.csv,Restoration explicitly NOT TESTED
