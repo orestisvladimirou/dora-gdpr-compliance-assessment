@@ -1,0 +1,142 @@
+{
+  "project": "DORA-GDPR-Compliance-Assessment",
+  "version": "0.1",
+  "fictional_case": true,
+  "files": [
+    {
+      "path": ".github/workflows/validate.yml",
+      "sha256": "29d9cbf951f639066249738eea1a326f000daa9d6458b6b95131d5d094c0cebf",
+      "size": 432
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "179517abd69c4255ae281c070a7789c2e82074ff49d18dc10ab677877d0f22d9",
+      "size": 62
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "5cb947ea0af7cfc5f047b459b01c10a4f9c5c97a322367cd39a1b0396538fb07",
+      "size": 708
+    },
+    {
+      "path": "Compliance_Assessment_v0.1.xlsx",
+      "sha256": "223df04b55691b44168e18a70b7d01be86b184f24dbb23c661116031a6f6b02a",
+      "size": 14570
+    },
+    {
+      "path": "README.md",
+      "sha256": "d689b2beadc2dab3e64b1add7d8d577c62cc510754a581ae5b6592c3f4f7f664",
+      "size": 5104
+    },
+    {
+      "path": "data/evidence_register.csv",
+      "sha256": "57f3bcff74a3e27a642063479ab3d46cf21d2e95fc21dbcd6feacebd56259bdd",
+      "size": 1108
+    },
+    {
+      "path": "data/ict_arrangements.csv",
+      "sha256": "2f95096f97dfa93b1bbe7c5d9d8db481b578e98a52db8b89890abfb1ab82edda",
+      "size": 661
+    },
+    {
+      "path": "data/incident_register.csv",
+      "sha256": "fc046b025c78f85075c03b9db41b2975662989928326bf11c07fcc8049b3c11c",
+      "size": 1175
+    },
+    {
+      "path": "data/regulatory_obligations.csv",
+      "sha256": "be3add151ff666bc307410dfaa1d92bb27b15dab29be735270eeb7f35293a04f",
+      "size": 3927
+    },
+    {
+      "path": "data/remediation_tracker.csv",
+      "sha256": "0fa504f2ad0f8deb9ed8eaf297bc9759cd7fa8115f59be8319192421754a3a84",
+      "size": 2141
+    },
+    {
+      "path": "data/reporting_clock_exercises.csv",
+      "sha256": "4cc0baaabe44f3c6d6c6ae24f8860cc25bcc2a75a97cf6332c29800d21aa9fbe",
+      "size": 665
+    },
+    {
+      "path": "data/services_and_assets.csv",
+      "sha256": "22f673a189f620560248a4e541975590264bff7e1964c8dcd79324741d1ad340",
+      "size": 721
+    },
+    {
+      "path": "docs/01-scenario-and-scope.md",
+      "sha256": "e864744bf18470b0c14709fe4c1037215499e76cc2f2d31b36b850a039810533",
+      "size": 2200
+    },
+    {
+      "path": "docs/02-dora-classification-and-reporting.md",
+      "sha256": "1929383687a62132db36aee727ef496d7a4a8fdfd699abdfc70f43df99d32f40",
+      "size": 2723
+    },
+    {
+      "path": "docs/03-gdpr-breach-triage.md",
+      "sha256": "46fce18cbf0474ea2cd21c5ca71b9a4326a9959c8f36b00159b5d096d915043b",
+      "size": 2017
+    },
+    {
+      "path": "docs/04-executive-report.md",
+      "sha256": "576843f8440ceaacce22406f94248294a7b47e7958cb45ca579fefab261bb646",
+      "size": 2173
+    },
+    {
+      "path": "docs/05-regulatory-sources.md",
+      "sha256": "1c1a39077e4dfa592fcfc92577ace1ae521fbf9904328dfe34165f0d9e6e743b",
+      "size": 2423
+    },
+    {
+      "path": "evidence/EV-01-governance-draft.md",
+      "sha256": "e1ab1ecc5d6952f89388afdb3e6bc91c450a35b8a0247ce441db47b24a8adceb",
+      "size": 409
+    },
+    {
+      "path": "evidence/EV-02-service-dependencies.md",
+      "sha256": "154797c45de8a1566cca8a9c6737b515b9758b5d9441ea266586932a820cf487",
+      "size": 427
+    },
+    {
+      "path": "evidence/EV-03-control-evidence-gaps.md",
+      "sha256": "ece87452df46b4578342077240881644736bcb56b7b54752ae3423f1cbbb03ff",
+      "size": 393
+    },
+    {
+      "path": "evidence/EV-06-incident-sequence.md",
+      "sha256": "9d8a1dc2208281f53216167e69e8b9e8944b6a768987e59c9554af79ff94191a",
+      "size": 426
+    },
+    {
+      "path": "evidence/EV-07-contract-issues.md",
+      "sha256": "48cdd79fd04a4d15afecec3d976c62b9b648385defb69c710358e5e05301ef94",
+      "size": 439
+    },
+    {
+      "path": "evidence/EV-08-ropa-draft.md",
+      "sha256": "110625c3c980347d4661ea4e04a29a0323ba3989b02c88fc3904a5de1ef2ac65",
+      "size": 396
+    },
+    {
+      "path": "evidence/EV-09-privacy-triage.md",
+      "sha256": "f1cb3c1363cfbfda2372f04494290d96065b6b09f6b396694509c21c1854900d",
+      "size": 390
+    },
+    {
+      "path": "scripts/validate_project.py",
+      "sha256": "6d1a4592f8d824c341b61b1c958dcafe3a6314fca85cda65970f42abebc605b2",
+      "size": 6456
+    },
+    {
+      "path": "templates/incident-decision-record.md",
+      "sha256": "ed36d697a6938373e6617cc5ab455716666f177ea902fce8eb88ace63632c329",
+      "size": 817
+    },
+    {
+      "path": "tests/test_regulatory.py",
+      "sha256": "20b57fc0f5b3c34a16e4c5d931a022fff45f7db0410f78333b7490663d2afebe",
+      "size": 2283
+    }
+  ]
+}

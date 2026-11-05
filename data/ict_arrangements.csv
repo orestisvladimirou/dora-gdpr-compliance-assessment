@@ -1,0 +1,4 @@
+arrangement_id,ict_supplier,service,supports_critical_function,processing_role_assumption,status,roi_template_status,gdpr_processor_agreement_status,action_id
+AGR-001,Aster Cloud Systems (fictional),Payment API hosting,Yes,Processor for in-scope customer data,Draft review,Not official ITS-complete,Unsigned scenario contract,ACT-07
+AGR-002,Meridian Messaging (fictional),Operational alerts,No,Case-dependent,Draft review,Not official ITS-complete,Role analysis pending,ACT-07
+AGR-003,Harbor Analytics (fictional),Fraud signal processing,Yes,Joint/controller/processor assessment required,Draft review,Not official ITS-complete,Role analysis pending,ACT-07

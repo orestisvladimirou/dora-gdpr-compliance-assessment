@@ -1,0 +1,4 @@
+incident_id,dora_initial_deadline_utc,dora_intermediate_deadline_utc,dora_final_deadline_utc,gdpr_authority_planning_deadline_utc,actual_dora_submission,actual_gdpr_submission,training_note
+INC-001,2026-12-10T15:00:00Z,UNKNOWN - AWAIT SUBMISSION,UNKNOWN - AWAIT INTERMEDIATE,2026-12-13T10:45:00Z,NONE - SIMULATED,NONE - SIMULATED,Independent applicability and awareness clocks; no real notice delivered
+INC-002,,,,,NONE - SIMULATED,NONE - SIMULATED,Independent applicability and awareness clocks; no real notice delivered
+INC-003,,,,2026-12-15T13:30:00Z,NONE - SIMULATED,NONE - SIMULATED,Independent applicability and awareness clocks; no real notice delivered

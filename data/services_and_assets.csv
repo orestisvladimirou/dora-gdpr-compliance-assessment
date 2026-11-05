@@ -1,0 +1,5 @@
+asset_id,business_service,critical_or_important_function_assumption,personal_data,business_owner,notes
+AS-01,Payment API,Yes,Customer payment metadata,Payments Product Lead,Financial critical service assumption requires entity-level validation
+AS-02,Customer records platform,Yes,Contact and transaction-linked data,Data Owner,GDPR controller/processor roles must be reviewed per processing activity
+AS-03,Internal operations dashboard,No,Limited operational logs,IT Operations,Outage not automatically major DORA incident
+AS-04,Incident response and notification workspace,Supports critical service,May contain pseudonymized incident records,Security Operations,Use only generated synthetic data in this repository

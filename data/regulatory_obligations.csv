@@ -1,0 +1,20 @@
+obligation_id,framework,reference,assessment_focus,scope_assumption,evidence_id,status,action_id,accountable_role,primary_source_url
+D-01,DORA,Art 5–6,Assign ICT risk governance and oversight to accountable management,Fictional entity assumed in-scope,EV-01,Gap,ACT-01,Board / ICT Risk Lead,https://eur-lex.europa.eu/eli/reg/2022/2554/oj
+D-02,DORA,Art 8,Maintain current ICT asset and dependency identification,Payment API and supporting assets in scope,EV-02,Partial,ACT-02,Asset Owner,https://eur-lex.europa.eu/eli/reg/2022/2554/oj
+D-03,DORA,Art 9–10,Protect ICT assets and detect anomalous activity,Critical service protections require evidence,EV-03,Gap,ACT-03,Security Operations,https://eur-lex.europa.eu/eli/reg/2022/2554/oj
+D-04,DORA,Art 11–12,ICT response recovery and backup testing,Recovery scenarios exercise critical service,EV-04,Gap,ACT-04,Continuity Lead,https://eur-lex.europa.eu/eli/reg/2022/2554/oj
+D-05,DORA,Art 13,Learn from ICT incidents through documented reviews,No real postmortem produced,EV-05,Gap,ACT-05,Incident Lead,https://eur-lex.europa.eu/eli/reg/2022/2554/oj
+D-06,DORA,Art 17–18,Manage classification criteria for ICT incidents,Scenarios are only classification exercises,EV-06,Partial,ACT-06,Incident Lead,https://eur-lex.europa.eu/eli/reg/2022/2554/oj
+D-07,DORA,Art 19–20; 2025/301 Art 5,Document major incident reporting and timing decisions,One fictional major ICT case; no report sent,EV-06,Gap,ACT-06,Regulatory Reporting Lead,https://eur-lex.europa.eu/eli/reg_del/2025/301/oj
+D-08,DORA,2024/1772 Arts 8–9,Evaluate critical-service and materiality thresholds,Simplified subset of official criteria only,EV-06,Partial,ACT-06,ICT Risk Lead,https://eur-lex.europa.eu/eli/reg_del/2024/1772/oj
+D-09,DORA,Art 24–27,Plan operational resilience testing and tracked improvements,Testing not performed in real environment,EV-04,Gap,ACT-04,Resilience Lead,https://eur-lex.europa.eu/eli/reg/2022/2554/oj
+D-10,DORA,Art 28(3); 2024/2956,Maintain ICT third-party contractual register information,Teaching inventory not official ITS register submission,EV-07,Partial,ACT-07,Third-Party Risk,https://eur-lex.europa.eu/eli/reg_impl/2024/2956/oj
+D-11,DORA,Art 30,Review contractual security and exit clauses,Critical service contract remains draft,EV-07,Gap,ACT-07,Legal / Procurement,https://eur-lex.europa.eu/eli/reg/2022/2554/oj
+G-01,GDPR,Art 5(2); 24,Document accountability for relevant processing activities,Fictional financial entity controller for customer data,EV-08,Partial,ACT-08,DPO,https://eur-lex.europa.eu/eli/reg/2016/679/oj
+G-02,GDPR,Art 28,Assess processor terms and subcontractor requirements,Processor arrangement assumed for cloud provider,EV-07,Gap,ACT-07,DPO / Legal,https://eur-lex.europa.eu/eli/reg/2016/679/oj
+G-03,GDPR,Art 30,Maintain appropriate records of processing activities,Inventory incomplete in scenario,EV-08,Partial,ACT-08,Privacy Lead,https://eur-lex.europa.eu/eli/reg/2016/679/oj
+G-04,GDPR,Art 32,Document security of personal-data processing,Technical assurance not verified,EV-03,Gap,ACT-03,CISO / DPO,https://eur-lex.europa.eu/eli/reg/2016/679/oj
+G-05,GDPR,Art 33,Assess notification to authority using risk and 72-hour clock,Two fictional potentially reportable breaches,EV-09,Partial,ACT-09,DPO,https://eur-lex.europa.eu/eli/reg/2016/679/oj
+G-06,GDPR,Art 34,Assess whether affected individuals need communication,High-risk simulated breach INC-001 only,EV-09,Partial,ACT-09,DPO,https://eur-lex.europa.eu/eli/reg/2016/679/oj
+G-07,GDPR,Art 35,Screen processing for DPIA necessity,Not all processing automatically requires DPIA,EV-08,Not verified,ACT-08,Privacy Lead,https://eur-lex.europa.eu/eli/reg/2016/679/oj
+G-08,GDPR,Chapter V,Assess international transfers and safeguards when relevant,Third-country access not presumed lawful or unlawful,EV-07,Not verified,ACT-07,DPO / Legal,https://eur-lex.europa.eu/eli/reg/2016/679/oj

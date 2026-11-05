@@ -1,0 +1,10 @@
+evidence_id,title,file,assurance_level,limitations
+EV-01,Governance memo,evidence/EV-01-governance-draft.md,Draft,No formal governing-body approval
+EV-02,Dependency snapshot,evidence/EV-02-service-dependencies.md,Synthetic scope-limited,Critical function boundary not independently verified
+EV-03,Security controls note,evidence/EV-03-control-evidence-gaps.md,Synthetic gap record,No production access/controls tested
+EV-04,Recovery status note,,Missing,No completed critical-service test evidence
+EV-05,Incident learning record,,Missing,No operating lessons learned program
+EV-06,Incident timeline and classification,evidence/EV-06-incident-sequence.md,Synthetic classification exercise,Not a competent authority decision
+EV-07,Supplier arrangements extract,evidence/EV-07-contract-issues.md,Draft,Not an official DORA ITS register; contracts unverified
+EV-08,Processing inventory,evidence/EV-08-ropa-draft.md,Draft,Actual processing purpose/lawful basis not verified
+EV-09,Privacy breach decision notes,evidence/EV-09-privacy-triage.md,Synthetic assessment,No regulator or data subject contacted

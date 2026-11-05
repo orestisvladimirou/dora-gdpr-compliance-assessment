@@ -1,0 +1,10 @@
+action_id,obligation_refs,priority,finding,recommended_action,owner,target_scenario_date,status,acceptance_evidence
+ACT-01,D-01,P1,No approved DORA ICT governance and reporting RACI,Propose management oversight and accountability matrix,ICT Risk Lead,2027-01-15,Open - fictional,Approved governance charter and role validation
+ACT-02,D-02,P1,Critical service dependency inventory incomplete,Reconcile service/asset owner mappings and criticality,Asset Owner,2027-01-20,Open - fictional,Owner-signed asset dependency and classification review
+ACT-03,D-03;G-04,P1,Security and data processing controls have insufficient proof,Collect scoped IAM/monitoring/security evidence,Security Operations,2027-01-12,Open - fictional,Timestamped configuration and alert samples
+ACT-04,D-04;D-09,P1,No demonstrated critical payment workload recovery exercise,Design and conduct witnessed restoration test,Continuity Lead,2027-02-01,Open - fictional,RTO/RPO objectives measured; action log
+ACT-05,D-05,P2,Lessons-learned workflow not operated,Write incident postmortem template and assign owners,Incident Lead,2027-01-25,Open - fictional,Reviewed lessons and verified implementation evidence
+ACT-06,D-06;D-07;D-08,P1,Major classification and timing workflow only simulated,Formalize DORA clock and classification with legal review,Regulatory Reporting Lead,2027-01-15,Open - fictional,Signoff of decision tree and full regulatory classification tests
+ACT-07,D-10;D-11;G-02;G-08,P1,ICT arrangements and privacy clauses not verified,Complete applicable DORA RoI and contract/privacy scoping,Procurement / Legal,2027-02-10,Open - fictional,ITS-format validated register and legal-reviewed agreements
+ACT-08,G-01;G-03;G-07,P2,Processing accountability and DPIA screening incomplete,Validate RoPA and perform DPIA screening,DPO,2027-02-10,Open - fictional,Approved processing record and justified DPIA decision
+ACT-09,G-05;G-06,P1,Personal-data breach risk and communications process not approved,Develop 72-hour GDPR decision and subject-notification protocol,DPO,2027-01-15,Open - fictional,Documented awareness basis and approved template/rehearsal
