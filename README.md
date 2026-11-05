@@ -1,6 +1,6 @@
 # DORA & GDPR Compliance Assessment — Fictional EU Financial Services Exercise
 
-**Independent cybersecurity governance portfolio project · v0.1 · 5 November 2026**
+**Independent cybersecurity governance portfolio project · v0.2 · 5 November 2026**
 
 > **ENTIRELY SYNTHETIC.** Aurora Payment Services (fictional), suppliers, incidents, controls, employees, information, decisions, reports and evidence are invented. No regulatory report was sent, no actual organization was assessed, and this project is **not an attestation of DORA or GDPR compliance, legal advice, or employment experience**.
 
@@ -28,6 +28,12 @@ The organization is *assumed* to be an in-scope EU payment institution for teach
 | [`scripts/validate_project.py`](scripts/validate_project.py) | Automated cross-file and reporting-clock consistency validation |
 | [`Compliance_Assessment_v0.1.xlsx`](Compliance_Assessment_v0.1.xlsx) | Editable executive dashboard and source registers |
 
+## Phase 2 — Extended regulatory decision exercises (v0.2)
+
+The [Phase 2 dossier](phase2/README.md) contains **nine additional DORA/GDPR classification scenarios**, five explicitly fictional notification-clock exercises and nine evidence requests. Cases cover the special DORA malicious-access threshold, recurrence needing review, two materiality thresholds, the 24-hour awareness cap, post-24-hour major classification, intermediate/final deadlines, and the distinction between the GDPR processor's notice and the controller's 72-hour awareness clock.
+
+All hypothetical submission timestamps are **training examples**, not real regulatory notices. The v0.1 baseline and workbook remain intact; the workbook is a historical snapshot rather than a live Phase 2 dashboard.
+
 ## Three contrasting scenarios
 
 | Scenario | DORA major? | GDPR personal-data breach authority notification? | Why (assumed facts) |
@@ -42,6 +48,7 @@ Classifications are simplified exercises that depend on facts and require expert
 
 ```bash
 python scripts/validate_project.py
+python scripts/validate_phase2.py
 python -m unittest discover -s tests -v
 ```
 
@@ -50,7 +57,7 @@ No external Python libraries are required to validate the CSV source data. Excel
 ## Implementation roadmap
 
 - **Phase 1 (v0.1):** Fictional organization, obligation and evidence registers, three incident comparisons, reportability checks and workbook.
-- **Phase 2:** Expand regulatory traceability, edge-case incident decisions, evidence requests and date-aware reporting timeline exercises.
+- **Phase 2 (v0.2): Completed** nine classification scenarios, five illustrative timelines, nine evidence requests and new automated tests.
 - **Phase 3:** Simulate regulatory communication preparation, resilience testing and verified-looking but clearly fictitious corrective-action follow-ups, retaining historical decisions.
 - **Final:** Review clarity, documentation, automated checks, potential sensitive information and portfolio suitability before publication.
 
