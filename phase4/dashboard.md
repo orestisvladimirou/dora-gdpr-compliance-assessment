@@ -47,7 +47,7 @@ These determinations are deliberately independent. An ICT incident is not necess
 
 The **19 checkpoints** are split into nine modeled gaps, eight partial observations and two without verification. The source register records owners and regulatory URLs. The nine evidence register entries are synthetic or explicitly missing. The nine corrective actions remain **open** even after later documentation exercises.
 
-The fictional resilience tabletop includes no restoration test: documentation of a proposed recovery step is not evidence that a critical payment service meets RTO/RPO goals. Similarly, building a mock notification packet does not satisfy a real regulator reporting requirement.
+The fictional resilience tabletop's recovery step is explicitly marked **NOT TESTED**: documentation of a proposed recovery step is not evidence that a critical payment service meets RTO/RPO goals. Similarly, building a mock notification packet does not satisfy a real regulator reporting requirement.
 
 [Obligation register](../data/regulatory_obligations.csv) · [Open remediation register](../data/remediation_tracker.csv) · [Phase 3 follow-up](../phase3/data/remediation_followup.csv)
 
