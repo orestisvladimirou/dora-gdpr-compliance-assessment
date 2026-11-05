@@ -1,4 +1,4 @@
-name: Refresh verified DORA-GDPR v0.4 source manifest once
+name: Refresh verified DORA-GDPR v0.4 manifest after dashboard correction
 
 on:
   push:
