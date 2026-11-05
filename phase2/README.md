@@ -19,4 +19,4 @@ python scripts/validate_phase2.py
 python -m unittest discover -s tests -v
 ```
 
-**Important:** The original v0.1 `SOURCE_MANIFEST.json` and `Compliance_Assessment_v0.1.xlsx` remain frozen historical snapshot artifacts. These Phase 2 CSVs are *additional* records; the original workbook does not automatically reflect them. Classification logic covers a selected subset of legal criteria and is not suitable for actual compliance decisions.
+**Important:** The original v0.1 source hashes are preserved in `historical/SOURCE_MANIFEST_v0.1.json`; `Compliance_Assessment_v0.1.xlsx` remains a historical workbook snapshot. These Phase 2 CSVs are *additional* records; the original workbook does not automatically reflect them. Classification logic covers a selected subset of legal criteria and is not suitable for actual compliance decisions.

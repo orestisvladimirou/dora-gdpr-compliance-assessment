@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4 — 2026-11-05
+
+- Created a source-linked executive dashboard with 20 verified quantitative and non-assurance indicators.
+- Added portfolio integration tests, documentation link validation, explicit distinction between scenario dates and actual submissions, and a quality-review checklist.
+- Preserved original v0.1 source-hash manifest in `historical/` and introduced a current versioned manifest for complete repository integrity checks.
+- Marked all nine actions open, all six regulatory communication records unsent, and resilience recovery as untested.
+- Kept the GitHub repository private pending explicit owner publication approval.
+
 ## 0.3 — 2026-11-05
 
 - Prepared six entirely simulated and unsigned regulatory communication records for fictional DORA/GDPR scenarios. No notifications were actually sent.

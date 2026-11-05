@@ -1,6 +1,6 @@
 # DORA & GDPR Compliance Assessment — Fictional EU Financial Services Exercise
 
-**Independent cybersecurity governance portfolio project · v0.3 · 5 November 2026**
+**Independent cybersecurity governance portfolio project · v0.4 · 5 November 2026**
 
 > **ENTIRELY SYNTHETIC.** Aurora Payment Services (fictional), suppliers, incidents, controls, employees, information, decisions, reports and evidence are invented. No regulatory report was sent, no actual organization was assessed, and this project is **not an attestation of DORA or GDPR compliance, legal advice, or employment experience**.
 
@@ -40,6 +40,12 @@ The [Phase 3 dossier](phase3/README.md) includes **six draft communication recor
 
 The historical v0.1 data, baseline Excel workbook and original decisions remain unchanged. The Phase 2 and Phase 3 datasets are separate **future-dated fictional exercises**, not actual incidents or filings.
 
+## Phase 4 — Executive dashboard and final quality review (v0.4)
+
+The [integrated dashboard](phase4/dashboard.md) consolidates the **three incidents**, **19 selected obligations**, **nine additional edge cases**, **five reporting-clock exercises**, **six unsigned communication records**, **six simulated resilience steps**, and **nine still-open remediation actions**. The [quality review](phase4/docs/final-quality-review.md) documents evidence limitations and release checks.
+
+**Zero real reports were submitted, zero critical-service restores were demonstrated, and no actions were independently closed.** The project is a fictional learning exercise, not evidence of actual regulatory compliance.
+
 ## Three contrasting scenarios
 
 | Scenario | DORA major? | GDPR personal-data breach authority notification? | Why (assumed facts) |
@@ -56,16 +62,18 @@ Classifications are simplified exercises that depend on facts and require expert
 python scripts/validate_project.py
 python scripts/validate_phase2.py
 python scripts/validate_phase3.py
+python scripts/validate_portfolio.py
+python scripts/validate_manifest.py
 python -m unittest discover -s tests -v
 ```
 
-No external Python libraries are required to validate the CSV source data. Excel is a separate **v0.1 snapshot**, not a regulatory submission template and not automatically synchronized with the CSV files.
+No external Python libraries are required for validation. Excel remains a **v0.1 historical snapshot**, not a regulatory template or live Phase 4 dashboard. The original v0.1 file-hash manifest is preserved in [`historical/SOURCE_MANIFEST_v0.1.json`](historical/SOURCE_MANIFEST_v0.1.json); the root `SOURCE_MANIFEST.json` covers the current v0.4 inventory.
 
 ## Implementation roadmap
 
 - **Phase 1 (v0.1):** Fictional organization, obligation and evidence registers, three incident comparisons, reportability checks and workbook.
 - **Phase 2 (v0.2): Completed** nine classification scenarios, five illustrative timelines, nine evidence requests and new automated tests.
 - **Phase 3 (v0.3): Completed** draft regulatory communication preparation, resilience tabletop design and nine clearly open simulated corrective-action follow-ups.
-- **Final:** Review clarity, documentation, automated checks, potential sensitive information and portfolio suitability before publication.
+- **Final (v0.4): Completed** integrated management dashboard, document-link and source-data checks, versioned source manifest and portfolio readiness audit.
 
 Keep the eventual GitHub repository **private throughout development**. Publish only after manual owner review and explicit approval.

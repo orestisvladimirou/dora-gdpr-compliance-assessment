@@ -16,5 +16,9 @@ jobs:
         run: python scripts/validate_phase2.py
       - name: Validate Phase 3 draft packets and open actions
         run: python scripts/validate_phase3.py
+      - name: Validate Phase 4 indicators and documentation links
+        run: python scripts/validate_portfolio.py
+      - name: Verify current source manifest
+        run: python scripts/validate_manifest.py
       - name: Regression tests
         run: python -m unittest discover -s tests -v
