@@ -1,12 +1,13 @@
 {
   "project": "DORA-GDPR-Compliance-Assessment",
-  "version": "0.1",
+  "version": "0.4",
   "fictional_case": true,
+  "purpose": "Independent simulated compliance-assessment portfolio; no regulator reports",
   "files": [
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "29d9cbf951f639066249738eea1a326f000daa9d6458b6b95131d5d094c0cebf",
-      "size": 432
+      "sha256": "ce83de9b5ded7496dd0a10aba26b47137fd4c7a9dd9dd904e3e4d88c2cfd390c",
+      "size": 861
     },
     {
       "path": ".gitignore",
@@ -15,8 +16,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "5cb947ea0af7cfc5f047b459b01c10a4f9c5c97a322367cd39a1b0396538fb07",
-      "size": 708
+      "sha256": "fb1986f517b318d7f4815504b4f18e7f90c35ac28c409f62e12cd95ec47883d0",
+      "size": 2680
     },
     {
       "path": "Compliance_Assessment_v0.1.xlsx",
@@ -25,8 +26,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "d689b2beadc2dab3e64b1add7d8d577c62cc510754a581ae5b6592c3f4f7f664",
-      "size": 5104
+      "sha256": "271544b2d3d5bdae2c8f65045b6efe5238d1b6f0c23e4845307fd581f73a2d23",
+      "size": 7605
     },
     {
       "path": "data/evidence_register.csv",
@@ -124,6 +125,116 @@
       "size": 390
     },
     {
+      "path": "historical/SOURCE_MANIFEST_v0.1.json",
+      "sha256": "5f23029045081934175730b93ac923712e841efd52415d5ad151847c5a9ab91a",
+      "size": 4493
+    },
+    {
+      "path": "phase2/README.md",
+      "sha256": "5faf6362a43d6b4ec08006257f7da1f33e8a88dd4b92db855edf396697d66880",
+      "size": 1806
+    },
+    {
+      "path": "phase2/data/edge_case_decisions.csv",
+      "sha256": "a4e219b2965be12fe92aa2093b2ad9c848fb6af05ade90968cb194b055ff6819",
+      "size": 2194
+    },
+    {
+      "path": "phase2/data/evidence_requests.csv",
+      "sha256": "eb1fba987061b78b4775ddc97bd1bb1e050155a533e8ce5e7723357381800d71",
+      "size": 2462
+    },
+    {
+      "path": "phase2/data/timeline_exercises.csv",
+      "sha256": "961c20cfbbe3e45152739c9f024c9099264d93e7b5b88b79779113df60de5f8f",
+      "size": 1693
+    },
+    {
+      "path": "phase2/docs/06-regulatory-decision-and-evidence.md",
+      "sha256": "a1c3860f167154b51771b8a7db82a3cde941b407a7d68f7f4819a6c37c845294",
+      "size": 3555
+    },
+    {
+      "path": "phase2/docs/07-separate-clocks.md",
+      "sha256": "de05567cb5e002e18ed2f92a14d2f85fc06472c13f7fd4c2a0b3a14c9542fa69",
+      "size": 3598
+    },
+    {
+      "path": "phase3/README.md",
+      "sha256": "8bc80bb6c30ad3dde7c918fbf5abdff29ac23b51c05dcd36caca5ae4f6a113a4",
+      "size": 1541
+    },
+    {
+      "path": "phase3/data/mock_communication_packets.csv",
+      "sha256": "43a5c6d5f02b2762fbb6f909436fd6ff2c9bdc566fde56d03e9065766c41607b",
+      "size": 2120
+    },
+    {
+      "path": "phase3/data/remediation_followup.csv",
+      "sha256": "975db6009b041c7120e0144552e29e8bb4f967722fbbb9cf13418505e1af8a62",
+      "size": 2096
+    },
+    {
+      "path": "phase3/data/resilience_tabletop.csv",
+      "sha256": "f8213e69459d11a9cf84513392fa40c8bb56edf84d26353eda5bd1a04289a810",
+      "size": 1707
+    },
+    {
+      "path": "phase3/docs/08-mock-communication-preparation.md",
+      "sha256": "4da591c571452dd966fa0662522d6775cd9fcbf377afda8c3bc7c1e821098609",
+      "size": 2856
+    },
+    {
+      "path": "phase3/docs/09-tabletop-and-corrective-action.md",
+      "sha256": "47b2cb84e736a8589ec4a90806a4981129352bcc68b270f5e3733abb601e8b4b",
+      "size": 2526
+    },
+    {
+      "path": "phase4/README.md",
+      "sha256": "96c438d8d9b2e466efee26f02286281ed811a87717b3911f8895f15ed46aee0a",
+      "size": 961
+    },
+    {
+      "path": "phase4/dashboard.md",
+      "sha256": "0e11257ac0d752059ccab36107aafd7849fbb2c6608ce2bace0d6aa48921b344",
+      "size": 6672
+    },
+    {
+      "path": "phase4/data/portfolio_metrics.csv",
+      "sha256": "fe82c62128e2d2d234faa7d551b3bfe16d6101d1e1847be941966bfb88c20a17",
+      "size": 2401
+    },
+    {
+      "path": "phase4/docs/final-quality-review.md",
+      "sha256": "eda8cbe9ccc8613714fa79e8656b1d21307fdcfccccaad3ff46461319a2da60b",
+      "size": 3589
+    },
+    {
+      "path": "scripts/regenerate_manifest.py",
+      "sha256": "cf502d940c23dfe2be5461e36ca6fa7b4f49f1e25310f0e447f83c6fe012670e",
+      "size": 841
+    },
+    {
+      "path": "scripts/validate_manifest.py",
+      "sha256": "4bd577c0da6df04cf8eabe919c5fe18ce811403e262141742c238426a3c52062",
+      "size": 1192
+    },
+    {
+      "path": "scripts/validate_phase2.py",
+      "sha256": "58798ea8c527f72b2bd7bd18d6b63a367a06a94c795f0cc068b1791dc434d09f",
+      "size": 7022
+    },
+    {
+      "path": "scripts/validate_phase3.py",
+      "sha256": "1bc55b2db1d8b2da7d80270ad406b546be20baf0ef2cd87c48fb569b04779ca3",
+      "size": 3662
+    },
+    {
+      "path": "scripts/validate_portfolio.py",
+      "sha256": "45020db3a0fce9c6648ac14ba7e6a4f11e9ba888b60d4bf9b821d935987c22e1",
+      "size": 4364
+    },
+    {
       "path": "scripts/validate_project.py",
       "sha256": "6d1a4592f8d824c341b61b1c958dcafe3a6314fca85cda65970f42abebc605b2",
       "size": 6456
@@ -132,6 +243,21 @@
       "path": "templates/incident-decision-record.md",
       "sha256": "ed36d697a6938373e6617cc5ab455716666f177ea902fce8eb88ace63632c329",
       "size": 817
+    },
+    {
+      "path": "tests/test_phase2.py",
+      "sha256": "ef75916a34463f6272bf6c4dfc90a008302e47833e5a70206d9e4d92dc3ae579",
+      "size": 2394
+    },
+    {
+      "path": "tests/test_phase3.py",
+      "sha256": "e8b324404ffb0034825f3273a546bed91832721bb551b0faefa2016094e2e9c6",
+      "size": 1369
+    },
+    {
+      "path": "tests/test_portfolio.py",
+      "sha256": "eaf5054af41d97ae80f705e57a378688ac7774c8d1505a44dce78b249b96643e",
+      "size": 941
     },
     {
       "path": "tests/test_regulatory.py",
