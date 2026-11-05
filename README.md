@@ -1,6 +1,6 @@
 # DORA & GDPR Compliance Assessment — Fictional EU Financial Services Exercise
 
-**Independent cybersecurity governance portfolio project · v0.2 · 5 November 2026**
+**Independent cybersecurity governance portfolio project · v0.3 · 5 November 2026**
 
 > **ENTIRELY SYNTHETIC.** Aurora Payment Services (fictional), suppliers, incidents, controls, employees, information, decisions, reports and evidence are invented. No regulatory report was sent, no actual organization was assessed, and this project is **not an attestation of DORA or GDPR compliance, legal advice, or employment experience**.
 
@@ -34,6 +34,12 @@ The [Phase 2 dossier](phase2/README.md) contains **nine additional DORA/GDPR cla
 
 All hypothetical submission timestamps are **training examples**, not real regulatory notices. The v0.1 baseline and workbook remain intact; the workbook is a historical snapshot rather than a live Phase 2 dashboard.
 
+## Phase 3 — Draft reporting packets and tabletop (v0.3)
+
+The [Phase 3 dossier](phase3/README.md) includes **six draft communication records** (three DORA report stages, two GDPR supervisory-authority notices and one assumed high-risk individual communication), six **tabletop-only** resilience steps and a follow-up register covering all nine original corrective actions. Every notification is marked **NONE - SIMULATED**; the recovery step is **NOT TESTED**, and all nine corrective actions remain open and unapproved.
+
+The historical v0.1 data, baseline Excel workbook and original decisions remain unchanged. The Phase 2 and Phase 3 datasets are separate **future-dated fictional exercises**, not actual incidents or filings.
+
 ## Three contrasting scenarios
 
 | Scenario | DORA major? | GDPR personal-data breach authority notification? | Why (assumed facts) |
@@ -49,6 +55,7 @@ Classifications are simplified exercises that depend on facts and require expert
 ```bash
 python scripts/validate_project.py
 python scripts/validate_phase2.py
+python scripts/validate_phase3.py
 python -m unittest discover -s tests -v
 ```
 
@@ -58,7 +65,7 @@ No external Python libraries are required to validate the CSV source data. Excel
 
 - **Phase 1 (v0.1):** Fictional organization, obligation and evidence registers, three incident comparisons, reportability checks and workbook.
 - **Phase 2 (v0.2): Completed** nine classification scenarios, five illustrative timelines, nine evidence requests and new automated tests.
-- **Phase 3:** Simulate regulatory communication preparation, resilience testing and verified-looking but clearly fictitious corrective-action follow-ups, retaining historical decisions.
+- **Phase 3 (v0.3): Completed** draft regulatory communication preparation, resilience tabletop design and nine clearly open simulated corrective-action follow-ups.
 - **Final:** Review clarity, documentation, automated checks, potential sensitive information and portfolio suitability before publication.
 
 Keep the eventual GitHub repository **private throughout development**. Publish only after manual owner review and explicit approval.

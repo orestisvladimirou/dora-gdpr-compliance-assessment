@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3 — 2026-11-05
+
+- Prepared six entirely simulated and unsigned regulatory communication records for fictional DORA/GDPR scenarios. No notifications were actually sent.
+- Added six tabletop-only operational resilience stages; restoration remains explicitly NOT TESTED.
+- Carried nine fictional remediation actions forward with no independent verification, closure or management signoff.
+- Added independent cross-phase validator and five regression tests without modifying v0.1 source data or workbook.
+- Kept all dates after project creation prominently labeled as hypothetical scenario dates.
+
 ## 0.2 — 2026-11-05
 
 - Added nine fictional edge-case decisions for DORA major incident and GDPR personal-data notification assessment, including a recurrence-review case.
