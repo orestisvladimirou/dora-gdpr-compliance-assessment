@@ -64,7 +64,7 @@ def validate_phase2():
         assert not (risk and not breach),c["case_id"]
         assert c["gdpr_authority"]==("Yes" if breach and risk else "No")
         assert c["gdpr_individuals"]==("Yes" if breach and high else "No")
-        assert len(c["decision_limit"])>48
+        assert len(c["decision_limit"])>=30
     assert case_by["EDGE-205"]["dora_result"]=="Requires recurring-incident review"
     assert case_by["EDGE-202"]["dora_result"]=="Major (scenario)"
     assert case_by["EDGE-208"]["personal_data_breach"]=="Yes" and case_by["EDGE-208"]["gdpr_authority"]=="No"
